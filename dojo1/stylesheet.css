@@ -1,0 +1,141 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Avenir Next";
+}
+
+li{
+  list-style: none;
+}
+
+header{
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+}
+
+header h1{
+  float: left;
+  font-size: 36px;
+  margin: 20px 40px;
+  font-weight: normal;
+}
+
+header li{
+  float: left;
+  margin: 33px 20px;
+}
+
+.intro{
+  margin: 100px 80px;
+  width: 100%;
+}
+
+.intro h1{
+  font-size: 140px;
+}
+
+.intro h2{
+  font-size: 60px;
+}
+
+.intro span{
+  color: #ff4a4a;
+}
+
+.contents{
+  margin: 100px 80px;
+  width: 100%;
+  height: 500px;
+}
+
+.contents h3{
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: solid 2px #dee7ec;
+  
+}
+.content-box{
+  float: left;
+  margin-top: 50px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+.content-box p{
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.form{
+  margin: 100px 80px;
+  width: 100%;
+}
+
+.form h3{
+  font-size: 28px;
+  padding-bottom: 15px;
+  border-bottom: solid 2px #dee7ec;
+  margin-bottom: 20px;
+}
+
+.email{
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+
+.msg{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.wrng{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+input{
+  width: 400px;
+  padding: 20px;
+  border: solid 1px #dee7ec;
+}
+
+textarea{
+  width: 400px;
+  padding: 20px;
+  border: solid 1px #dee7ec;
+}
+
+.button{
+  font-size: 18px;
+  color: #889eab;
+  background-color: #dee7ec;
+  margin-bottom: 30px;
+}
+
+footer{
+  height: 120px;
+  padding: 40px;
+  background-color: #2f5167;
+  color: #fff;
+}
+
+footer h2{
+  font-size: 32px;
+  float: left;
+}
+
+footer ul{
+  float: right;
+}
+
+footer li{
+  margin-bottom: 20px;
+}
